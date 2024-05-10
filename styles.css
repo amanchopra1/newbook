@@ -1,0 +1,78 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #FEF1E9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            background-color: #FEF1E9;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2C1B12;
+            margin-bottom: 20px;
+            margin-top: -5px;
+            font-weight: 700;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 15px;
+            width: 100%;
+            
+        }
+                .book-item {
+                  text-decoration: none;
+            background-color: #F6E9E2;
+            color: brown;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            border: 1px solid brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 110px;
+            min-height: 80px;
+            border:1px solid brown;
+            transition: transform 0.3s ease;
+        }
+
+        .book-itemi {
+                  padding: 0px;
+                  border-radius: 5px;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border: 1.2px solid brown;
+                  transition: transform 0.3s ease;
+                }
+        .book-itemi img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: contain;
+        }
+        .book-item:hover {
+    transform: scale(1.05);
+}
+        .book-itemi:hover {
+    transform: scale(1.05);
+}
+
+        @media (max-width: 480px) {
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
