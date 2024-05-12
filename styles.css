@@ -60,10 +60,10 @@ body {
                   transition: transform 0.3s ease;
                 }
         .book-itemi img {
-          width: 200px;
-          height: 280px;
-          aspect-ratio: 6/9;
-          object-fit: contain;
+          width: 100%;
+          height: 100%;
+          /* aspect-ratio:inherit; */
+          object-fit:fill;
         }
         .book-item:hover {
     transform: scale(1.05);
