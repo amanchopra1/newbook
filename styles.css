@@ -85,22 +85,22 @@ body {
     background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/1-bg.jpg);
 }
 #ramayana{
-    background-image: url(Assets/2-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/2-bg.jpg);   
 }
 #puranas{
-    background-image: url(Assets/3-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/3-bg.jpg);   
 }
 #vedas{
-    background-image: url(Assets/4bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/4bg.jpg); 
 }
 #upanishad{
-    background-image: url(Assets/5-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/5-bg.jpg); 
 }
 #chalisa{
-    background-image: url(Assets/bg-chalisa.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/bg-chalisa.jpg); 
 }
 #ayurveda{
-    background-image: url(Assets/7-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/7-bg.jpg); 
 }
 #niti-shashtra{
     background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/8-bg.jpg);
@@ -118,10 +118,25 @@ body {
     background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/12-bg.jpg);
 }
 #caitanya-caritamrta{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/13-bg.jpg);   
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/13-bg.jpg);      
 }
 #letters{
     background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/14-bg.jpg);   
+}
+#btg1{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/15-bg.jpg);   
+}
+#btg2{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/16-bg.jpg);   
+}
+#btg3{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/17-bg.jpg);   
+}
+#btg4{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/18-bg.jpeg);   
+}
+#otherbooks{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/19-bg.jpg);   
 }
 
         @media (max-width: 480px) {
