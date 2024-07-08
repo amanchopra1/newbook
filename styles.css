@@ -82,10 +82,10 @@ body {
     background-repeat: no-repeat;
 }
 #gita{
-    background-image: url(./Assets/1-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/1-bg.jpg);
 }
 #ramayana{
-    background-image: url(/Assets/2-bg.jpg);
+    background-image: url(Assets/2-bg.jpg);
 }
 #puranas{
     background-image: url(Assets/3-bg.jpg);
