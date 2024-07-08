@@ -102,6 +102,28 @@ body {
 #ayurveda{
     background-image: url(Assets/7-bg.jpg);
 }
+#niti-shashtra{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/8-bg.jpg);
+}
+#sikhism{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/9-bg.jpg);
+}
+#bss{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/10-bg.jpg);
+}
+#osb{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/11-bg.jpg);
+}
+#srila-bhaktisidhanta{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/12-bg.jpg);
+}
+#caitanya-caritamrta{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/13-bg.jpg);   
+}
+#letters{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/14-bg.jpg);   
+}
+
         @media (max-width: 480px) {
             .book-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
