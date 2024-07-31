@@ -7,7 +7,7 @@
 }
 body {
             font-family: "Poppins",sans-serif;
-            background-color: #FEF1E9;
+            background-color: #ffffff;
             margin: 0;
             padding: 0;
         }
@@ -57,7 +57,7 @@ body {
         .container {
             max-width: 100%;
             padding: 20px;
-            background-color: #FEF1E9;
+            background-color: #ffffff;
             
             display: flex;
             flex-direction: column;
