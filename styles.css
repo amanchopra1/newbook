@@ -1,8 +1,5 @@
-:root{
-    --primary-font-color:#e58538;
-}
-body {
-            font-family: "Poppins",sans-serif;
+ body {
+            font-family: Arial, sans-serif;
             background-color: #FEF1E9;
             margin: 0;
             padding: 0;
@@ -54,20 +51,20 @@ body {
         }
                 .book-item {
                   text-decoration: none;
-            /* background-color: #F6E9E2; */
-            color: var(--primary-font-color);
+            background-color: #F6E9E2;
+            color: brown;
             padding: 30px;
             text-align: center;
             border-radius: 15px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
             font-weight: bold;
-            border: 1px solid var(--primary-font-color);
+            border: 1px solid brown;
             display: flex;
             justify-content: center;
             align-items: center;
             min-width: 110px;
             min-height: 80px;
-            border:1px solid var(--primary-font-color);
+            border:1px solid brown;
             transition: transform 0.3s ease;
         }
 
@@ -78,7 +75,7 @@ body {
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  border: 1.2px solid var(--primary-font-color);
+                  border: 1.2px solid brown;
                   transition: transform 0.3s ease;
                 }
         .book-itemi img {
@@ -94,72 +91,8 @@ body {
     transform: scale(1.05);
 }
 
-.BG{
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#gita{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/1-bg.jpg);
-}
-#ramayana{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/2-bg.jpg);   
-}
-#puranas{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/3-bg.jpg);   
-}
-#vedas{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/4bg.jpg); 
-}
-#upanishad{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/5-bg.jpg); 
-}
-#chalisa{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/bg-chalisa.jpg); 
-}
-#ayurveda{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/7-bg.jpg); 
-}
-#niti-shashtra{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/8-bg.jpg);
-}
-#sikhism{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/9-bg.jpg);
-}
-#bss{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/10-bg.jpg);
-}
-#osb{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/11-bg.jpg);
-}
-#srila-bhaktisidhanta{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/12-bg.jpg);
-}
-#caitanya-caritamrta{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/13-bg.jpg);      
-}
-#letters{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/14-bg.jpg);   
-}
-#btg1{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/15-bg.jpg);   
-}
-#btg2{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/16-bg.jpg);   
-}
-#btg3{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/17-bg.jpg);   
-}
-#btg4{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/18-bg.jpeg);   
-}
-#otherbooks{
-    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/19-bg.jpg);   
-}
-
         @media (max-width: 480px) {
             .book-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
-        }
+                }

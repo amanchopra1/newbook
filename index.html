@@ -1,12 +1,179 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <title>Sakha Book Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      
+      <link rel="stylesheet" href="navparticles.css">
+      <style>
+:root {
+  --primary-font-color: #FF8C00;
+  --primary-color: #FF8C00;
+  --text-color: #333;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+            font-family: "Poppins",sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            background-color: #FFFFFF00;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+  text-align: center;
+  color: var(--primary-font-color);
+  margin-bottom: 20px;
+  margin-top: -3px;
+  font-weight: 700;
+  filter: drop-shadow(1px 1px 1px 
+  rgba(207, 207, 207, 0)) drop-shadow(-1px -1px 2px rgba(197, 192, 192, 0.78));
+  font-size: 1.8rem;
+}
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 15px;
+            width: 100%;
+            
+        }
+                .book-item {
+                  text-decoration: none;
+            /* background-color: #F6E9E2; */
+            color: var(--primary-font-color);
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            border: 1px solid var(--primary-font-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 110px;
+            min-height: 80px;
+            border:1px solid var(--primary-font-color);
+            transition: transform 0.3s ease;
+        }
+
+        .book-itemi {
+                  padding: 0px;
+                  border-radius: 5px;
+                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  border: 1.2px solid var(--primary-font-color);
+                  transition: transform 0.3s ease;
+                }
+        .book-itemi img {
+          width: 100%;
+          height: 100%;
+          /* aspect-ratio:inherit; */
+          object-fit:fill;
+        }
+        .book-item:hover {
+    transform: scale(1.05);
+}
+        .book-itemi:hover {
+    transform: scale(1.05);
+}
+
+.BG{
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#gita{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/1-bg.jpg);
+}
+#ramayana{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/2-bg.jpg);   
+}
+#puranas{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/3-bg.jpg);   
+}
+#vedas{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/4bg.jpg); 
+}
+#upanishad{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/5-bg.jpg); 
+}
+#chalisa{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/bg-chalisa.jpg); 
+}
+#ayurveda{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/7-bg.jpg); 
+}
+#niti-shashtra{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/8-bg.jpg);
+}
+#sikhism{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/9-bg.jpg);
+}
+#bss{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/10-bg.jpg);
+}
+#osb{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/11-bg.jpg);
+}
+#srila-bhaktisidhanta{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/12-bg.jpg);
+}
+#caitanya-caritamrta{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/13-bg.jpg);      
+}
+#letters{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/14-bg.jpg);   
+}
+#btg1{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/15-bg.jpg);   
+}
+#btg2{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/16-bg.jpg);   
+}
+#btg3{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/17-bg.jpg);   
+}
+#btg4{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/18-bg.jpeg);   
+}
+#otherbooks{
+    background-image: url(https://cdn.jsdelivr.net/gh/amanchopra1/newbook/Assets/19-bg.jpg);   
+    margin-bottom:10vh;
+}
+
+        @media (max-width: 480px) {
+            .book-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+
+
+      </style>
+    
 </head>
 <body>
+  <div class="spiritual-particles" id="particles"></div>
+    
     <div class="container">
+
         <h2>Sakha Book Store</h2>
         <div class="book-grid">
             <div class="BG" id="gita">
@@ -68,5 +235,28 @@
             </div>
         </div>
     </div>
+      <nav class="navigation">
+      <a href="https://sakha-chat.vercel.app" class="nav-item"><i class="fas fa-home"></i><span>Home</span>
+      </a>
+    <a href="https://vedic.sakha.chat" class="nav-item nav-active"><i class="fas fa-book"></i><span>Books</span></a><a href="https://home.skaha.chat/mala.html" class="nav-item"><i class="fas fa-om"></i><span>Chanting</span></a>
+  <a href="https://gita.sakha.chat" class="nav-item"><i class="fas fa-leaf"></i><span>Remedies</span>
+  </a>
+  <a href="https://rzp.io/l/sakha" class="nav-item"><i class="fas fa-hand-holding-heart"></i><span>contribute</span></a></nav>
+  
+ <a href="https://rzp.io/l/uvl0zLm" style="text-decoration: none; color: inherit;">
+  <div style="text-align: center; width:80%; margin: -6vh auto 10vh auto; padding: 20px; border: 2px solid var(--primary-font-color); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #f9f9f9;">
+    <h3 style="color: var(--primary-font-color); margin-bottom: 15px;">Support Our Work</h3>
+    <p style="font-size: 1.1rem; color: var(--text-color); margin-bottom: 20px;">
+      Sakha is an open-source project that relies on the support of generous contributors. If you find our work valuable, please consider making a donation. Your support helps us continue to provide quality resources.
+    </p>
+    <img src="/IMG-20240808-WA0008.jpg" alt="Donate" style="max-width: 90%; height: auto; border-radius: 10px; margin-bottom: 2vh;">
+    <br>
+    <a href="https://rzp.io/l/uvl0zLm" style="display: inline-block; padding: 12px 25px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.1rem; transition: background-color 0.3s; margin-bottom: 0vh;">Contribute</a>
+  </div>
+</a>
+
+
+  
+  <script src="particles.js">particles.js</script>
 </body>
-</html>
+                 </html>
